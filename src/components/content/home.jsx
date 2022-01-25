@@ -3,10 +3,15 @@ import path from "./path";
 
 import { useState } from 'react';
 
-import { Card, Container, Row, Col } from "react-bootstrap";
+import { Card, Container, Row, Col, Figure, Button } from "react-bootstrap";
 
 import Calendar from "react-calendar";
 import 'react-calendar/dist/Calendar.css';
+
+import nela from '../assets/nelka.png'
+import kicia from '../assets/Kicia.png'
+import mysza from '../assets/Mysza.jpg'
+import robka from '../assets/Robka.jpg'
 
 
 function Home() {
@@ -22,10 +27,44 @@ function Home() {
                         <Card>
                             <Card.Header className="header" as="h5">Pets</Card.Header>
                             <Card.Body>
-                                {/* <Card.Title>Special title treatment</Card.Title>
-                                <Card.Text>
-                                    With supporting text below as a natural lead-in to additional content.
-                                </Card.Text> */}
+                                <Row>
+                                    <Col xs={6} md={3}>
+                                        <Button variant="none">
+                                            <Figure>
+                                                <Figure.Image className="pet-picture" src={kicia} roundedCircle />
+                                                <Figure.Caption>Kicia</Figure.Caption>
+                                            </Figure>
+                                        </Button>
+                                    </Col>
+
+                                    <Col xs={6} md={3}>
+                                        <Button variant="none">
+                                            <Figure>
+                                                <Figure.Image className="pet-picture" src={nela} roundedCircle />
+                                                <Figure.Caption>Nela</Figure.Caption>
+                                            </Figure>
+                                        </Button>
+                                    </Col>
+
+                                    <Col xs={6} md={3}>
+                                        <Button variant="none">
+                                            <Figure>
+                                                <Figure.Image className="pet-picture" src={mysza} roundedCircle />
+                                                <Figure.Caption>Mysza</Figure.Caption>
+                                            </Figure>
+                                        </Button>
+                                    </Col>
+
+                                    <Col xs={6} md={3}>
+                                        <Button variant="none">
+                                            <Figure>
+                                                <Figure.Image className="pet-picture" src={robka} roundedCircle />
+                                                <Figure.Caption>Robie</Figure.Caption>
+                                            </Figure>
+                                        </Button>
+                                    </Col>
+
+                                </Row>
                             </Card.Body>
                         </Card>
                     </Col>
@@ -34,7 +73,7 @@ function Home() {
                         <Card>
                             <Card.Header className="header" as="h5">Vets</Card.Header>
                             <Card.Body>
-                                
+
                             </Card.Body>
                         </Card>
                     </Col>
@@ -45,7 +84,7 @@ function Home() {
                         <Card>
                             <Card.Header className="header" as="h5" >Appointments</Card.Header>
                             <Card.Body>
-                                
+
                             </Card.Body>
                         </Card>
                     </Col>

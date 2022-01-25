@@ -18,5 +18,35 @@ code {
 }
 
 .header {
-  background-color: #BBCFFB;
+  background-color: #b781fe7e;
+  /* background-image: linear-gradient(
+    to right top,
+    #71e9cb8f,
+    #b781fe96
+  ); */
+}
+
+.card {
+  border: none;
+}
+
+.pet-picture {
+  width: 72px;
+  height: 72px;
+}
+
+.figure-caption {
+  text-align: center;
+  color: rgb(24, 24, 24);
+  font-weight: 400;
+}
+
+.btn {
+  border: 0px;
+  padding: 0px;
+}
+
+.btn:focus {
+  outline: none;
+  box-shadow: none;
 }

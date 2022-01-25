@@ -1,6 +1,7 @@
 const path = {    
     home: "/",
-    pet: "/pet"
+    pet: "/pet",
+    specific_pet: "/name" 
 }
 
 export default path;
