@@ -17,12 +17,16 @@ code {
   margin: auto;
 }
 
-.header {
+/* .header {
   background-color: #b781fe7e;
-}
+} */
 
 .card {
   border: none;
+}
+
+.card-header {
+  border-bottom: none;
 }
 
 .pet-picture {
@@ -36,7 +40,7 @@ code {
   font-weight: 400;
 }
 
-.btn {
+.btn-home {
   border: 0px;
   padding: 0px;
 }
@@ -45,3 +49,11 @@ code {
   outline: none;
   box-shadow: none;
 }
+
+.form-group row {
+  margin-bottom: 1rem;
+}
+
+/* .form-spacing {
+  padding: 15px;
+} */

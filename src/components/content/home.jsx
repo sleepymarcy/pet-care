@@ -42,7 +42,7 @@ function Home() {
                                     </Col>
 
                                     <Col xs={6} md={3}>
-                                        <Button variant="none">
+                                        <Button variant="none" className="btn-home">
                                             <Figure>
                                                 <Figure.Image className="pet-picture" src={nela} roundedCircle />
                                                 <Figure.Caption>Nela</Figure.Caption>
@@ -51,7 +51,7 @@ function Home() {
                                     </Col>
 
                                     <Col xs={6} md={3}>
-                                        <Button variant="none">
+                                        <Button variant="none" className="btn-home">
                                             <Figure>
                                                 <Figure.Image className="pet-picture" src={mysza} roundedCircle />
                                                 <Figure.Caption>Mysza</Figure.Caption>
@@ -60,7 +60,7 @@ function Home() {
                                     </Col>
 
                                     <Col xs={6} md={3}>
-                                        <Button variant="none">
+                                        <Button variant="none" className="btn-home">
                                             <Figure>
                                                 <Figure.Image className="pet-picture" src={robka} roundedCircle />
                                                 <Figure.Caption>Robie</Figure.Caption>
@@ -71,7 +71,7 @@ function Home() {
                                     <Col xs={6} md={3}>
 
                                         <Link to={path.new_pet}>
-                                            <Button variant="none">
+                                            <Button variant="none" className="btn-home">
                                                 <Figure>
                                                     <AiFillPlusCircle className="pet-picture" style={{ margin: '0px 0px 8px' }} />
                                                     <Figure.Caption>Add new</Figure.Caption>
@@ -92,7 +92,7 @@ function Home() {
                             <Card.Body>
                                 <Row>
                                     <Col xs={6} md={3}>
-                                        <Button variant="none">
+                                        <Button variant="none" className="btn-home">
                                             <Figure>
                                                 <Figure.Image className="pet-picture" src={logo} roundedCircle />
                                                 <Figure.Caption>Vet #1</Figure.Caption>
@@ -101,7 +101,7 @@ function Home() {
                                     </Col>
 
                                     <Col xs={6} md={3}>
-                                        <Button variant="none">
+                                        <Button variant="none" className="btn-home">
                                             <Figure>
                                                 <Figure.Image className="pet-picture" src={logo} roundedCircle />
                                                 <Figure.Caption>Vet #2</Figure.Caption>
@@ -112,7 +112,7 @@ function Home() {
                                     <Col xs={6} md={3}>
 
                                         <Link to={path.new_vet}>
-                                            <Button variant="none">
+                                            <Button variant="none" className="btn-home">
                                                 <Figure>
                                                     <AiFillPlusCircle className="pet-picture" style={{ margin: '0px 0px 8px' }} />
                                                     <Figure.Caption>Add new</Figure.Caption>
