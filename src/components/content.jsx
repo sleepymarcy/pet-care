@@ -1,6 +1,7 @@
-import Home from './content/home'
-import Pet from './content/pet'
-import NewPet from './content/new_pet'
+import Home from './content/home';
+import Pet from './content/pet';
+import NewPet from './content/new_pet';
+import NewVet from './content/new_vet';
 
 function Content() {
   return (
@@ -8,6 +9,7 @@ function Content() {
       <Home />
       <Pet />
       <NewPet />
+      <NewVet />
     </>
   );
 }

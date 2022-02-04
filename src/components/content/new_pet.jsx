@@ -4,7 +4,7 @@ import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 import path from "./path";
 
-import { Container, Form, Button, Row, Col, File } from "react-bootstrap"
+import { Container, Form, Button, Row, Col } from "react-bootstrap"
 
 function NewPet() {
 
@@ -26,7 +26,7 @@ function NewPet() {
 
     return (
         <Route path={path.new_pet}>
-            <Container>
+            <Container style={{padding: "5rem 10rem"}}>
 
                 <Form>
                     <Form.Group as={Row} className="mb-3">
@@ -164,7 +164,7 @@ function NewPet() {
 
                     <Form.Group as={Row}>
                         <Col sm={{ span: 12, offset: 10 }}>
-                            <Button type="submit">Sign in</Button>
+                            <Button type="submit" variant="dark">Save</Button>
                         </Col>
                     </Form.Group>
 
