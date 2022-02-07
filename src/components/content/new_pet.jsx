@@ -26,7 +26,7 @@ function NewPet() {
 
     return (
         <Route path={path.new_pet}>
-            <Container style={{padding: "5rem 10rem"}}>
+            <Container style={{ padding: "5rem 20rem" }}>
 
                 <Form>
                     <Form.Group as={Row} className="mb-3">
@@ -162,10 +162,8 @@ function NewPet() {
                     </Form.Group>
 
 
-                    <Form.Group as={Row}>
-                        <Col sm={{ span: 12, offset: 10 }}>
-                            <Button type="submit" variant="dark">Save</Button>
-                        </Col>
+                    <Form.Group className="submit-btn">
+                        <Button type="submit" className="btn-color">Save</Button>
                     </Form.Group>
 
                 </Form>

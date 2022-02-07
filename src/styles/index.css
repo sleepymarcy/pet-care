@@ -54,6 +54,19 @@ code {
   margin-bottom: 1rem;
 }
 
-/* .form-spacing {
-  padding: 15px;
-} */
+.btn-color {
+  background-color: #3CE6B5;
+  border-color: #3CE6B5;
+}
+
+.submit-btn {
+  float: right !important;
+}
+
+.links {
+  color: #3CE6B5;
+}
+
+.links:hover {
+  color: #3CE6B5;
+}

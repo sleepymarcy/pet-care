@@ -1,4 +1,6 @@
 const path = {    
+    login: "/login",
+    signup: "/signup",
     home: "/",
     pet: "/pet",
     specific_pet: "/name",
