@@ -11,7 +11,7 @@ function NewVet() {
 
     return (
         <Route path={path.new_vet}>
-            <Container style={{ padding: "5rem 20rem" }}>
+            <Container style={{ padding: "5rem 10rem" }}>
 
                 <Form>
 

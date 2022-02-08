@@ -1,4 +1,4 @@
-import { Route } from "react-router-dom";
+import { Route, Link } from "react-router-dom";
 import path from "./path";
 
 import { Container, Form, Button, Row, Col } from "react-bootstrap";
@@ -7,7 +7,7 @@ function Login() {
 
     return (
         <Route path={path.login}>
-            <Container style={{ padding: "5rem 20rem" }}>
+            <Container style={{ padding: "5rem 10rem" }}>
 
                 <Form>
                     <Form.Group className="mb-3" controlId="formBasicEmail">
@@ -22,6 +22,14 @@ function Login() {
                     <Form.Group className="submit-btn">
                         <Button type="submit" className="btn-color">Log In</Button>
                     </Form.Group>
+
+                    <br />
+                    <br />
+                    <br />
+                    <Row className="justify-content-md-center">
+                        <Col xs lg="4" style={{ textAlign: 'end' }}>Don't have an account?</Col>
+                        <Col xs lg="3" className="p-0"><Link to="/signup" className="links">Sign Up here!</Link></Col>
+                    </Row>
                 </Form>
 
             </Container>

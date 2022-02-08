@@ -1,9 +1,9 @@
 import { Route } from "react-router-dom";
 import path from "./path"
 
-function Pet() {
+function Pets() {
     return (
-        <Route path={path.pet}>
+        <Route path={path.pets}>
             <div>
                 <h1> This is a pet-page </h1>
             </div>
@@ -11,4 +11,4 @@ function Pet() {
     );
 }
 
-export default Pet;
+export default Pets;

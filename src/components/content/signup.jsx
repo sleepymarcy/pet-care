@@ -31,9 +31,9 @@ function Signup() {
                     <br/>
                     <br/>
                     <br/>
-                    <Row style={{textAlign: 'center'}}>
-                        <Col>Already have an account?</Col>
-                        <Col><Link to="/login" className="links">Log In</Link></Col>
+                    <Row className="justify-content-md-center">
+                        <Col xs lg="4" style={{textAlign: 'end'}}>Already have an account?</Col>
+                        <Col xs lg="3" className="p-0"><Link to="/login" className="links">Log In here!</Link></Col>
                     </Row>
                 </Form>
 

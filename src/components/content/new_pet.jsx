@@ -26,7 +26,7 @@ function NewPet() {
 
     return (
         <Route path={path.new_pet}>
-            <Container style={{ padding: "5rem 20rem" }}>
+            <Container style={{ padding: "5rem 10rem" }}>
 
                 <Form>
                     <Form.Group as={Row} className="mb-3">
