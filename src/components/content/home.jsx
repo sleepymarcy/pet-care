@@ -8,12 +8,12 @@ import { Card, Container, Row, Col, Figure, Button, ListGroup } from "react-boot
 import Calendar from "react-calendar";
 import 'react-calendar/dist/Calendar.css';
 
-import nela from '../assets/nelka.png'
-import kicia from '../assets/Kicia.png'
-import mysza from '../assets/Mysza.jpg'
-import robka from '../assets/Robka.jpg'
-import logo from '../assets/logo.png'
-import { AiFillPlusCircle } from 'react-icons/ai'
+import nela from '../assets/nelka.png';
+import kicia from '../assets/Kicia.png';
+import mysza from '../assets/Mysza.jpg';
+import batman from '../assets/batman.jpg';
+import logo from '../assets/logo.png';
+import { AiFillPlusCircle } from 'react-icons/ai';
 
 
 function Home() {
@@ -62,8 +62,8 @@ function Home() {
                                     <Col xs={6} md={3}>
                                         <Button variant="none" className="btn-home">
                                             <Figure>
-                                                <Figure.Image className="pet-picture" src={robka} roundedCircle />
-                                                <Figure.Caption>Robie</Figure.Caption>
+                                                <Figure.Image className="pet-picture" src={batman} roundedCircle />
+                                                <Figure.Caption>Batman</Figure.Caption>
                                             </Figure>
                                         </Button>
                                     </Col>
@@ -73,7 +73,7 @@ function Home() {
                                         <Link to={path.new_pet}>
                                             <Button variant="none" className="btn-home">
                                                 <Figure>
-                                                    <AiFillPlusCircle className="pet-picture" style={{ margin: '0px 0px 8px' }} />
+                                                    <AiFillPlusCircle className="pet-picture add" style={{ margin: '0px 0px 8px' }} />
                                                     <Figure.Caption>Add new</Figure.Caption>
                                                 </Figure>
                                             </Button>
@@ -114,7 +114,7 @@ function Home() {
                                         <Link to={path.new_vet}>
                                             <Button variant="none" className="btn-home">
                                                 <Figure>
-                                                    <AiFillPlusCircle className="pet-picture" style={{ margin: '0px 0px 8px' }} />
+                                                    <AiFillPlusCircle className="pet-picture add" style={{ margin: '0px 0px 8px' }} />
                                                     <Figure.Caption>Add new</Figure.Caption>
                                                 </Figure>
                                             </Button>

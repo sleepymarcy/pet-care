@@ -11,55 +11,55 @@ function NewVet() {
 
     return (
         <Route path={path.new_vet}>
-            <Container style={{ padding: "5rem 10rem" }}>
+            <Container style={{ padding: "5rem 0rem" }}>
 
                 <Form>
 
-                    <Form.Group as={Row} className="mb-3">
+                    <Form.Group as={Row} className="mb-3 justify-content-center" style={{ margin: "auto" }}>
                         <Form.Label column sm={2}>
                             Clinic Name
                         </Form.Label>
-                        <Col sm={10}>
+                        <Col sm={6}>
                             <Form.Control />
                         </Col>
                     </Form.Group>
 
-                    <Form.Group as={Row} className="mb-3">
+                    <Form.Group as={Row} className="mb-3 justify-content-center" style={{ margin: "auto" }}>
                         <Form.Label column sm={2}>
                             Veterinarian Name
                         </Form.Label>
-                        <Col sm={10}>
+                        <Col sm={6}>
                             <Form.Control />
                         </Col>
                     </Form.Group>
 
-                    <Form.Group as={Row} className="mb-3">
+                    <Form.Group as={Row} className="mb-3 justify-content-center" style={{ margin: "auto" }}>
                         <Form.Label column sm={2}>
                             Phone
                         </Form.Label>
-                        <Col sm={10}>
+                        <Col sm={6}>
                             <Form.Control />
                         </Col>
                     </Form.Group>
 
-                    <Form.Group as={Row} className="mb-3">
+                    <Form.Group as={Row} className="mb-3 justify-content-center" style={{ margin: "auto" }}>
                         <Form.Label column sm={2}>
                             E-Mail
                         </Form.Label>
-                        <Col sm={10}>
+                        <Col sm={6}>
                             <Form.Control />
                         </Col>
                     </Form.Group>
 
-                    <Form.Group as={Row} className="mb-3">
+                    <Form.Group as={Row} className="mb-3 justify-content-center" style={{ margin: "auto" }}>
                         <Form.Label column sm={2}>
                             Address
                         </Form.Label>
-                        <Col sm={10}>
+                        <Col sm={6}>
                             <Form.Control />
                         </Col>
                     </Form.Group>
-{/* 
+                    {/* 
                     <LoadScript API_KEY >
                         <GoogleMap
                             google={this.props.google}
@@ -67,10 +67,11 @@ function NewVet() {
                             initialCenter={{ lat: 47.444, lng: -122.176 }}
                         />
                     </LoadScript> */}
-
-                    <Form.Group className="submit-btn">
-                        <Button type="submit" className="btn-color">Save</Button>
-                    </Form.Group>
+                    <Col sm={8} style={{ margin: "auto" }}>
+                        <Form.Group className="submit-btn">
+                            <Button type="submit" className="btn-color">Save</Button>
+                        </Form.Group>
+                    </Col>
 
                 </Form>
             </Container>

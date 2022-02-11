@@ -34,6 +34,11 @@ code {
   height: 72px;
 }
 
+.pets-pictures {
+  width: 200px;
+  height: 200px;
+}
+
 .figure-caption {
   text-align: center;
   color: rgb(24, 24, 24);
@@ -59,6 +64,10 @@ code {
   border-color: #3CE6B5;
 }
 
+.btn-color:hover {
+  background-color: black;
+}
+
 .submit-btn {
   float: right !important;
 }
@@ -69,4 +78,17 @@ code {
 
 .links:hover {
   color: #3CE6B5;
+}
+
+.add {
+  color: #3CE6B5;
+}
+
+.add:hover {
+  color: black;
+}
+
+.caption {
+  font-weight: 500;
+  font-size: 1.5rem;
 }
